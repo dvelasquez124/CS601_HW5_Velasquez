@@ -1,0 +1,21 @@
+{
+    "my_college_degrees": [
+        {
+            "degree": {
+                "School": "Fordham University",
+                "Program/major": "Sociology",
+                "Type": "Bachelor of Arts",
+                "Year conferred": 2016
+            }
+        },
+        {
+            "degree": {
+                "School": "Boston University",
+                "Program/major": "Software Development",
+                "Type": "Master of Science",
+                "Year conferred": 2024
+            }
+        }
+
+    ]
+}
