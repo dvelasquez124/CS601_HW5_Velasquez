@@ -24,3 +24,15 @@ h1 {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
   }
+
+  .degrees{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+
+.item{
+    background-color: #ccc;
+    padding: 15px;
+    border-radius: 4px;
+}
