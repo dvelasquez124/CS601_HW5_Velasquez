@@ -1,17 +1,18 @@
 const api = "https://splendid-duckanoo-33e6bf.netlify.app/my_college_degrees.json";
+console.log(api);
 
 function getDegree() {
     fetch(api)
         .then(response => response.json())
         .then(data => {
-            const div = document.getElementById("college_degree_list");
+            const div = document.getElementById("college-degree-list");
             div.innerHTML = buildDegreeList(data);
         })
         .catch(error => console.log(error))
 }
 
 function buildDegreeList(degrees) {
-    const projectList = degrees.map(degree => {
+    const college_degree_list = degrees.map(degree => {
         return `<div class="item">
             <dt>
                 <strong>${degree.school}</strong>
@@ -29,8 +30,8 @@ function buildDegreeList(degrees) {
         `
     })
     return `
-    <dl class="projects">
-    ${projectList.join('')}
+    <dl class="degrees">
+    ${college_degree_list.join('')}
     </dl>
     `;
 }
@@ -38,4 +39,3 @@ function buildDegreeList(degrees) {
 const reveal = document.getElementById("reveal")
 reveal.addEventListener("click", getDegree);
 window.onload = getDegree;
-
