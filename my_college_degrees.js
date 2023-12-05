@@ -21,10 +21,10 @@ function buildDegreeList(degrees) {
             <dd>
                 ${degree.program_major}
             </dd>
-            <dd
+            <dd>
                 ${degree.type}
             </dd>
-            <dd
+            <dd>
                 ${degree.year_conferred}
             </dd>
         </div>
@@ -36,3 +36,4 @@ function buildDegreeList(degrees) {
     </dl>
     `;
 }
+
