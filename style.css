@@ -26,6 +26,7 @@ h1 {
   }
 
   .degrees{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 10px;
