@@ -34,3 +34,8 @@ function buildDegreeList(degrees) {
     </dl>
     `;
 }
+
+const reveal = document.getElementById("reveal")
+reveal.addEventListener("click", getDegree);
+window.onload = getDegree;
+
