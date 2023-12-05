@@ -1,18 +1,14 @@
 [
     {
-        "degree": {
-            "school": "Fordham University",
-            "program_major": "Sociology",
-            "type": "Bachelor of Arts",
-            "year_conferred": 2016
-        }
+        "school": "Fordham University",
+        "program_major": "Sociology",
+        "type": "Bachelor of Arts",
+        "year_conferred": 2016
     },
     {
-        "degree": {
-            "school": "Boston University",
-            "program_major": "Software Development",
-            "type": "Master of Science",
-            "year_conferred": 2024
-        }
+        "school": "Boston University",
+        "program_major": "Software Development",
+        "type": "Master of Science",
+        "year_conferred": 2024
     }
 ]
