@@ -1,4 +1,4 @@
-const api = "https://splendid-duckanoo-33e6bf.netlify.app/my_college_degrees";
+const api = "https://splendid-duckanoo-33e6bf.netlify.app/my_college_degrees.json";
 var reveal = document.getElementById("reveal")
 reveal.addEventListener("click", getDegree);
 
